@@ -114,10 +114,4 @@ public function destroy( $id) : RedirectResponse
 
         return redirect()->route('products.index')->with('success', 'Data Product berhasil dihapus.');
     }
-public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
-
 }
