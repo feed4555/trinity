@@ -119,37 +119,5 @@ public function __construct()
         $this->middleware('auth');
     }
 
-    public function __invoke()
-    {
-        //
-    }
-    public function __call($method, $parameters)
-    {
-        //
-    }
-    public static function __callStatic($method, $parameters)
-    {
-        //
-    }
-
-public function __get($name)
-    {
-        //
-    }
-
-    public function __set($name, $value)
-    {
-        //
-    }
-
-    public function __isset($name)
-    {
-        //
-    }
-
-    public function __unset($name)
-    {
-        //
-    }
 
 }
